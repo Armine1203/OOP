@@ -4,8 +4,8 @@ import Models.Numbers;
 import Models.Arrays;
 public class objects {
     public static void main(String[] args) {
-    // Homework1
-        Human human =new Human();
+    //
+       Human human =new Human();
         human.firstName="Armine";
         human.lastName="Lalayan";
         human.printFullName();
@@ -14,9 +14,11 @@ public class objects {
         human.weight=(float) 56.6;
         human.answer=false;
         human.Question();
-//homework2
+//
         Numbers number= new Numbers();
         number.printNumber(10,23);
+
+
 
         //
         Arrays array=new Arrays();
@@ -31,6 +33,17 @@ public class objects {
         //
         Arrays array2 = new Arrays();
         array2.arr=new int[] {1,3,2,5,4,7,9,8};
-   //     array2.printArray2();
+       array2.printArray2();
+
+
+//
+        Arrays array3= new Arrays();
+        array3.numbers=new int[]{1, 4, 7, -5, 3, 7, 32, 4, -7, 12};
+        array3.printArrayOddEvenNumbers();
+
+//
+        Arrays array4 = new Arrays();
+        array4.printminnumber();
+
     }
 }
